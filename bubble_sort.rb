@@ -15,10 +15,8 @@ class BubbleSort
           change_values = false
         end
       end
-      break if change_values
+      break if not change_values
     end
+    collection
   end
 end
-
-sorter = BubbleSort.new
-sorter.sort(["d", "b", "a", "c"])
